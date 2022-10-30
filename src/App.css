@@ -1,4 +1,83 @@
-@media (max-width:375) {
-  
+body{
+    font-family: inter;
+}
+.flexcol{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+profile-pic-con{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    border: red solid 1px; 
+    
+}
+.overlay{
+z-index: 1000;
+background-color: rgba(79, 75, 75,0.5);
+width: 88px;
+    height: 88px;
+    visibility:hidden;
+}
+.overlay:hover, .overlay:focus{
+    visibility:visible;
 }
 
+@media (max-width:375) {
+   .profileName {font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    background-color:green;
+}
+.links{
+    text-decoration: none;
+    color:blue;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+  
+}
+.profileName {font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+.links{
+    text-decoration: none;
+    width: 100%;
+    background-color: blue;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 24px 32px;
+    gap: 8px;
+    background: #EAECF0;
+}
+
+@media (min-width:375) {
+    .profileName {font-style: normal;
+        font-weight: 700 bold;
+        font-size: 18px;
+        line-height: 28px;
+        background-color:green;
+    }
+    .links{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+background-color: red;
+    }
+
+
+
+  
+}

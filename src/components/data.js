@@ -1,8 +1,12 @@
-export const profileData=[{id:"profile__img",name:'Alfahassan Alhussain',},
+import profile__img from "../Images/profile__img.png"
+import camera__img from "../Images/camera-01.svg"
+
+
+
+const profileData=[
     {id:'twitter',name:'twitter User',},
     {id:'slack',name:'Alfa Hassan Alhussain',},
 ]
-
 export const linkData=[
     {id:'twitter_btn', name:'Twitter Link',link:''},
 {id:'btn__zuri', name:'Zuri Team',link:'https://training.zuri.team/'},
@@ -13,3 +17,7 @@ export const linkData=[
 
 {id:'', name:'',link:''}
 ]
+
+export const image=[{id:"profile__img", src:profile__img,camImage:camera__img,name:'Alfa hassan Alhussain'}]
+
+export default profileData

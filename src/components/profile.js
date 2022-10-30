@@ -1,11 +1,21 @@
-import React from 'react';
+import React, {useState} from  'react';
 
-const Profile = () => {
+
+
+const Profile = ({ src,camImage,name}) => {
+    const [isVisible, setVisible]=useState(false)
   return (
-    <div>
-<svg src='' alt='profile Img'/>
-<p>{__Engr_Hussain}</p>
+    <>
+<div className='profile-pic-con' style={{backgroundImage: `url(${src})`, width:'88px', borderRadius:'50%', overflow:'hidden'}} onMouseOver={()=>{setVisible(false); console.log(isVisible)}}>
+    <div className='overlay' style={{visibility:`{${isVisible ? 'hidden':'visible'}}`,display: 'flex', justifyContent:'center', alignItems:'center'}}>
+        <img src={camImage} alt='id' className='cam'/>
     </div>
+</div>
+    <p className='profileName'>
+        {name}
+    </p>
+
+    </>
   );
 }
 

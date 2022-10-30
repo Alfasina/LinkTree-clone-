@@ -1,10 +1,9 @@
 import React from 'react';
 
-const Link = () => {
+
+const Link = ({name, link}) => {
   return (
-    <div>
-      
-    </div>
+    <a href={link} className='links'>{name}</a >
   );
 }
 
