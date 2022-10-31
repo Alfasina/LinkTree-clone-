@@ -18,6 +18,6 @@ export const linkData=[
 {id:'book__design', name:'Design Books',link:'https://books.zuri.team/design-rules '}
 ]
 
-export const image=[{id:"profile__img", src:profile__img,camImage:camera__img,name:'Alfa hassan Alhussain'}]
+export const image=[{id:"profile__img", src:profile__img,camImage:camera__img,twitterName:'__Engr_Hussain',slackName:'Alfasina'}]
 
 export default profileData

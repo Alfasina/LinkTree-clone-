@@ -2,7 +2,7 @@ import React, {useState} from  'react';
 
 
 
-const Profile = ({ src,camImage,name}) => {
+const Profile = ({ src,camImage,twitterName,slackName}) => {
     const [isVisible, setVisible]=useState('hidden')
   return (
     <>
@@ -12,9 +12,11 @@ const Profile = ({ src,camImage,name}) => {
     </div>
 </div>
     <p className='profileName'>
-        {name}
+        {twitterName}
     </p>
-
+    <p className='profileName' style={{display:'none'}}>
+        {slackName}
+    </p>
     </>
   );
 }
