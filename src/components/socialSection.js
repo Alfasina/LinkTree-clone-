@@ -2,10 +2,6 @@ import Profile from './profile';
 
 import { image } from './data';
 
-
-
-
-
 const SocialSection = () => {
   return (
     <div>

@@ -23,7 +23,7 @@ width: 88px;
     visibility:visible;
 }
 
-@media  (max-width: 375px)  {
+@media  (max-width: 767px)  {
    .profileName {font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -35,7 +35,6 @@ width: 88px;
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-    width: 100%;
     background: #EAECF0;
     padding: 24px 0;
     box-shadow:(0px 1px 2px rgba(16, 24, 40, 0.05));
@@ -47,6 +46,16 @@ width: 88px;
     gap: 24px;
     padding: 0px 16px;
 }
+.footer{
+    flex-direction: column;
+    margin: 32px 0;
+    padding: 0 16px;
+    justify-content: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
   
 }
 
@@ -57,18 +66,26 @@ width: 88px;
         font-size: 18px;
         line-height: 28px;
     }
-    .links{
-        text-decoration: none;
+    .links{ text-decoration: none;
         width: 100%;
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
         line-height: 28px;
         padding: 24px 32px;
-        gap: 8px;
         background: #EAECF0;
+        border-radius: 4px;
     }
-  
+    .linkSection{
+        padding: 0px 114px;
+        gap:24px;
+        
+
+    }
+    .linksectioncon{
+        padding: 64px 112px;
+        background-color: antiquewhite;
+    }
 }
 .links:hover{
     background: #D0D5DD;

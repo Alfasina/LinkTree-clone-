@@ -1,13 +1,13 @@
 import profile__img from "../Images/profile__img.png"
 import camera__img from "../Images/camera-01.svg"
 import github from "../Images/Social icon.svg"
-import slack from "../Images/Social icon.svg"
+import slack from "../Images/slack.svg"
 
 
 
-const profileData=[
-    {id:'twitter',name:'twitter User',},
-    {id:'slack',name:'Alfa Hassan Alhussain',},
+export const profileData=[
+    {id:'twitter',icon:github},
+    {id:'slack',icon:slack,},
 ]
 export const linkData=[
 {id:'twitter_btn', name:'Twitter Link',link:''},
@@ -19,5 +19,3 @@ export const linkData=[
 ]
 
 export const image=[{id:"profile__img", src:profile__img,camImage:camera__img,twitterName:'__Engr_Hussain',slackName:'Alfasina'}]
-
-export default profileData
