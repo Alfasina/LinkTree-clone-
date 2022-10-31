@@ -39,6 +39,7 @@ width: 88px;
     padding: 24px 0;
     box-shadow:(0px 1px 2px rgba(16, 24, 40, 0.05));
     margin: 0 12px;
+    width:94%;
 }
 
 .linkSection{
@@ -50,21 +51,50 @@ width: 88px;
     flex-direction: column;
     margin: 32px 0;
     padding: 0 16px;
-    justify-content: left;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
+    text-align: left;
+    gap:32px
+}
+.zuri{
+    width: 140.69px;
+height: 24px;
+flex: none;
+order: 0;
+flex-grow: 0
+}
+.i4g{
+    width: 99.1px;
+height: 24px;
+flex-grow: 0;
+}
+.pc{
+    display:none;
+}
+.mobile{
+    position: absolute;
+    right: 5%;
+    
 }
   
 }
 
 
-@media  (min-width: 375px)  {
+@media  (min-width: 767px)  {
     .profileName {font-style: normal;
         font-weight: 700;
         font-size: 18px;
         line-height: 28px;
+    }
+    .mobile{
+        display:none;
+    }
+    .pc{
+        position: absolute;
+        right: 20%;
+        
     }
     .links{ text-decoration: none;
         width: 100%;
@@ -85,6 +115,14 @@ width: 88px;
     .linksectioncon{
         padding: 64px 112px;
         background-color: antiquewhite;
+    }
+
+    .footer{
+        justify-content:space-between;
+        margin:48px 112px; 
+        font-weight:400; 
+        text-align:'center';
+        padding:32px 0px 0px;
     }
 }
 .links:hover{

@@ -8,11 +8,11 @@ import i4g from './Images/I4G.svg'
 
 
 const Footer=()=>{
-return<div className='footer' style={{display:'flex', justifyContent:'space-between', borderTop:'#EAECF0 solid 1px', padding:'32px 0px 0px', margin:'48px 112px', color:'#667085', fontWeight:'400', textAlign:'center'}}>
+return<div className='footer' style={{display:'flex',borderTop:'#EAECF0 solid 1px',}}>
 
-<img src={zuri} alt='Zuri'/>
-<p style={{}}>HNG Internship 9 Frontend Task</p>
-<img src={i4g} alt='ingressive'/>
+<img src={zuri} className='zuri' alt='Zuri'/>
+<p style={{color:'#667085'}}>HNG Internship 9 Frontend Task</p>
+<img src={i4g} className='i4g'alt='ingressive'/>
 
 </div>
 }
