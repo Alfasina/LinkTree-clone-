@@ -12,9 +12,9 @@ const LinkSection = () => {
         {image.map((img)=><Profile {...img} key={img.id}/>)}
       </div>
    
-      <div className='flexcol'>
+      <section className='flexcol linkSection'>
         {linkData.map((link, index)=><Link key={index} {...link}/>)}
-      </div>
+      </section>
     </div>
   );
 }

@@ -2,7 +2,6 @@ import Profile from './profile';
 
 import { image } from './data';
 
-console.log(image)
 
 
 
