@@ -3,7 +3,7 @@ import React from 'react';
 
 const Link = ({name, link}) => {
   return (
-    <a href={link} className='links'>{name}</a >
+    <a href={link} className='links' title={link}>{name}</a >
   );
 }
 

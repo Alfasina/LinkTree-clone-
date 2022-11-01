@@ -21,7 +21,7 @@ const LinkSection = () => {
       <section className='flexcol linkSection'>
         {linkData.map((link, index)=><Link key={index} {...link}/>)}
         <div style={{display:'flex', justifyContents:'center', alignItems:'center', padding:'24px 0'}}>
-          {profileData.map((data)=><img style={{margin:'0 12px'}} src={data.icon} alt={data.id} key={data.id}/>)}
+          {profileData.map((data)=><a href={data.link} title={data.link}><img style={{margin:'0 12px'}} src={data.icon} alt={data.id} key={data.id}/></a>)}
       </div>
       </section>
       
